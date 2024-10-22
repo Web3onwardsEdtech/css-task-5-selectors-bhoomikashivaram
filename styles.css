@@ -1,1 +1,41 @@
+#headers{
+    background-color: aqua;
+    font-size: xx-large;
+    text-align: center;
+}
+.content{
+    border: 2px solid greenyellow;
+}
+.content .para{
+    color: red;
+}
+.labels{
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+    width: auto;
+}
+input[type="text"] {
+    border: 2px solid rgb(59, 0, 223);
+    padding: 8px;
+    width: 100%;
+  }
+[placeholder^="enter "]{
+    border: 2px solid rgb(216, 1, 47);
+    padding: 8px;
+    width: 100%;
+}
+div.lists li{
+    list-style-type: none;
+}
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+li.lists~li{
+    background-color: rgba(52, 165, 42, 0.411);
 
+}
+li.first+li{
+    background-color: yellow;
+}
